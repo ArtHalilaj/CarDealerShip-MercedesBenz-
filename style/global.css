@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+header{
+    background-color: black;
+    padding: 5px;
+    margin: 0px;
+    
+}
+body{
+    background-color: black;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header ul img{
+    width: 100px;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type:none ;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+ul li a:hover{
+    font-size: 17px;
+    transition: 0.2s;
+}
+
+.title{
+    color: black;
+    text-decoration: none;
+}
+.title:hover{
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+}
+
+
+/* About us */
+
+#fillimi{
+    background-image: url("../img/prapavijaAboutus.png");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(8px);
+  -webkit-filter: blur(8px);
+    
+    
+}
+
+.teksti {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    border: 3px solid #f1f1f1;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.socialmedia{
+    width: 10px;
+}
+
+@media only screen and (max-width:768px){
+    #mfoto{
+        width: 100%;
+    }
+    #mfoto1{
+        width: 100%;
+        height: 400px;
+    }
+    #mfoto2{
+        width: 100%;
+        height: 220px;
+    }
+    #teksti1{
+        font-size: 10px;
+    }
+    #teksti2{
+        font-size: 10px;
+    }
+    #foto3{
+        width: 100%;
+        height: 200px;
+    }
+
+    .teksti{
+        margin-top: 60px;
+    }
+}
